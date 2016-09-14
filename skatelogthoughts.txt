@@ -1,0 +1,72 @@
+MySkateLog
+> Todays session
+- Time: HH:MM:SS ; How long did i skate for?
+- What did I do, key words/reserved words are skateboarding tricks;
+use an algorithim to identify key words and rank it etc.
+- Type of session
+	- Casual || Training?
+	Casual sesssions increment confidence on the board
+	What tricks did you perform
+	Drop down list, selecting
+	//example
+	Training
+	- Ollie
+	- Shuvit
+	Sets of ...; //e.g. 5
+	Reps of ...; //e.g. 8
+	Ollies landed in each set -> 3/6/7/6/8
+	Shuvits landed in each set -> 2/4/4/3
+
+	If trick success rate is below 60% -> Added to list of "Tricks to Improve on".
+	Tricks reaching a 60%+ success rate will be removed from the list.
+	If a trick reaches 85% success rate, it will no longer be included in success rate logs.
+	//Basic feature example of 30 days training
+	Date	Time	Type of Session  Trick(s) Peformed	Success Rate
+	12/8	30:00	Casual			 Ollie/Cruising		70%
+	14/8    30:00	Training         Ollie              60%
+	19/8    45:00   Training         Ollie              75%
+	23/8    30:00   Training         Ollie              75%
+	24/8	30:00	Training         Ollie              80%
+	25/8    45:00   Training         Ollie              75%
+	27/8    60:00   Training         Ollie              85%
+	29/8    30:00   Training         Ollie/FS 180       30%
+
+		|                 x
+		|				 x
+		| 				x
+		|			  x	
+	SR  |			 x	
+		|			x
+		|		x
+		|	x	
+		|x
+		-------------------------------
+				Date
+
+			SR = Success Rate
+			//Each trick will be a different colour on the line graph.
+			- Calculations
+						Clicking on the key of a specific trick will take u to that tricks graph
+			showing stats how many ollies, over a time period.
+			If it took me 250 ollies to reach 65% average...I need X more to get a 85% average
+			e.g. 50 ollies on 12/9/16 
+				 56 ollies on 14/9/16
+				 70 ollies on 21/9/16
+				 map it out, etc.
+
+			Total stat feature
+			- Total Time Skating: HH:MM:SS
+			- Number of tricks performed: XXXX
+			- Overrall Success rate:	XXXX 
+			- Favourite Trick:	XXXX
+			- Most successfful trick:	XXXX
+			- Least sucessful trick:	XXXX
+
+- Cruising tab
+> Can plot cruising route, e.g. Sea Point Promenade perimeter, common skating area just for
+warming up etc, then skating around town practicing tricks
+> Marking skate spots
+
+
+
+- Trick tracking - sets/reps?
