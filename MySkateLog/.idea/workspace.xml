@@ -61,36 +61,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainX.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Skate/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871">
-              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.29032257">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2204#2211#0" expanded="true" />
-                <element signature="e#10876#10877#0" expanded="true" />
-                <element signature="e#10917#10918#0" expanded="true" />
-                <element signature="e#10962#10963#0" expanded="true" />
-                <element signature="e#11005#11006#0" expanded="true" />
-                <element signature="e#11040#11041#0" expanded="true" />
-                <element signature="e#11081#11082#0" expanded="true" />
-                <element signature="e#11125#11126#0" expanded="true" />
-                <element signature="e#11168#11169#0" expanded="true" />
-                <element signature="e#11210#11211#0" expanded="true" />
-                <element signature="e#11258#11259#0" expanded="true" />
-                <element signature="e#11316#11317#0" expanded="true" />
-                <element signature="e#11373#11374#0" expanded="true" />
-                <element signature="e#11418#11419#0" expanded="true" />
-                <element signature="e#11469#11470#0" expanded="true" />
-                <element signature="e#11534#11535#0" expanded="true" />
-                <element signature="e#11597#11598#0" expanded="true" />
-                <element signature="e#11639#11640#0" expanded="true" />
-                <element signature="e#11687#11688#0" expanded="true" />
-                <element signature="e#11745#11746#0" expanded="true" />
-                <element signature="e#11802#11803#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainX.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkateGUI.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Skate/SkateGUI.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.8214286">
+              <caret line="20" column="270" selection-start-line="20" selection-start-column="270" selection-end-line="20" selection-end-column="270" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -126,7 +132,11 @@
         <option value="$PROJECT_DIR$/src/Skate/Logic/SkateWindow.fxml" />
         <option value="$PROJECT_DIR$/src/Skate/Logic/LifeCycle.java" />
         <option value="$PROJECT_DIR$/src/Skate/Logic/MainX.java" />
+        <option value="$PROJECT_DIR$/src/SkateFXML/MainX.java" />
+        <option value="$PROJECT_DIR$/src/SkateFXML/SkateGUI.fxml" />
         <option value="$PROJECT_DIR$/src/Skate/MainX.java" />
+        <option value="$PROJECT_DIR$/src/Skate/SkateGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/Skate/Controller.java" />
       </list>
     </option>
   </component>
@@ -139,7 +149,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
+    <option name="x" value="515" />
     <option name="y" value="23" />
     <option name="width" value="809" />
     <option name="height" value="812" />
@@ -173,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,7 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +243,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/SkateFXML" />
       <recent name="$PROJECT_DIR$/src/Skate/Logic" />
       <recent name="$PROJECT_DIR$/src/Skate/View" />
       <recent name="$PROJECT_DIR$/src/Skate/Controller" />
@@ -531,15 +542,16 @@
       <workItem from="1473674308188" duration="4902000" />
       <workItem from="1473711056041" duration="5162000" />
       <workItem from="1473884474618" duration="4371000" />
-      <workItem from="1473920128355" duration="17205000" />
+      <workItem from="1473920128355" duration="18881000" />
+      <workItem from="1474570401456" duration="5679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33065000" />
+    <option name="totallyTimeSpent" value="40420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="23" width="809" height="812" extended-state="0" />
+    <frame x="515" y="23" width="809" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -550,12 +562,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31717452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31717452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.178618" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178618" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -570,6 +581,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,209 +634,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
+    <entry file="file://$PROJECT_DIR$/hs_err_pid2283.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/LifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid2283.log">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/control/Label.java">
@@ -843,14 +661,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs_err_pid2283.log">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/control/Tab.java">
@@ -865,10 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65938866">
           <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-          <folding>
-            <element signature="e#3194#3195#0" expanded="false" />
-            <element signature="e#3227#3228#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,19 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skate/LifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/util/Callback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7379913">
           <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,33 +712,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Skate/SkateGUI.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8214286">
+          <caret line="20" column="270" selection-start-line="20" selection-start-column="270" selection-end-line="20" selection-end-column="270" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Skate/MainX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2204#2211#0" expanded="true" />
-            <element signature="e#10876#10877#0" expanded="true" />
-            <element signature="e#10917#10918#0" expanded="true" />
-            <element signature="e#10962#10963#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11040#11041#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#11125#11126#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11258#11259#0" expanded="true" />
-            <element signature="e#11316#11317#0" expanded="true" />
-            <element signature="e#11373#11374#0" expanded="true" />
-            <element signature="e#11418#11419#0" expanded="true" />
-            <element signature="e#11469#11470#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-            <element signature="e#11639#11640#0" expanded="true" />
-            <element signature="e#11687#11688#0" expanded="true" />
-            <element signature="e#11745#11746#0" expanded="true" />
-            <element signature="e#11802#11803#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Skate/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29032257">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

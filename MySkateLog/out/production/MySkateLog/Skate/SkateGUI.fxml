@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.51" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Skate.Controller">
+  <tabs>
+    <Tab text="Today">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Group layoutX="492.0" layoutY="20.0">
+                     <children>
+                        <Group>
+                           <children>
+                              <Group>
+                                 <children>
+                                    <Label fx:id="lblWelcome" text="Welcome, " />
+                                    <Label layoutY="28.0" text="What was the main focus of todays session?" />
+                                    <RadioButton fx:id="rbCasual" layoutX="5.0" layoutY="66.0" mnemonicParsing="false" text="Casual Session" />
+                                    <RadioButton fx:id="rbTraining" layoutX="129.0" layoutY="66.0" mnemonicParsing="false" text="Training Session" />
+                                 </children>
+                              </Group>
+                              <Group layoutX="29.0" layoutY="302.0">
+                                 <children>
+                                    <Label layoutX="4.0" text="Sets" />
+                                    <ComboBox fx:id="cmbSets" layoutY="16.0" prefHeight="26.0" prefWidth="11.0" promptText="1" />
+                                 </children>
+                              </Group>
+                              <Group layoutX="29.0" layoutY="105.0">
+                                 <children>
+                                    <DatePicker fx:id="datePicker" layoutY="26.0" />
+                                    <Label text="Date" />
+                                    <Label layoutY="67.0" text="Time (HH::MM::SS)" />
+                                    <TextField fx:id="txfTime" layoutY="84.0" prefHeight="26.0" prefWidth="189.0" />
+                                 </children>
+                              </Group>
+                              <Group layoutX="141.0" layoutY="301.0">
+                                 <children>
+                                    <Label layoutX="1.0" text="Repetitions" />
+                                    <ComboBox fx:id="cmbReps" layoutY="18.0" prefHeight="26.0" prefWidth="11.0" promptText="1" />
+                                 </children>
+                              </Group>
+                              <Group layoutX="136.0" layoutY="356.0">
+                                 <children>
+                                    <Label text="Total Landed" />
+                                    <ComboBox fx:id="cmbLanded" layoutX="7.0" layoutY="20.0" prefHeight="26.0" prefWidth="11.0" promptText="1" />
+                                 </children>
+                              </Group>
+                           </children>
+                        </Group>
+                        <Label layoutX="33.0" layoutY="225.0" text="Trick Performed" />
+                        <ComboBox fx:id="cmbTricks" editable="true" layoutX="30.0" layoutY="255.0" prefHeight="26.0" prefWidth="222.0" promptText="What Tricks did you do today?" />
+                     </children>
+                  </Group>
+                  <Separator layoutX="387.0" layoutY="14.0" orientation="VERTICAL" prefHeight="461.0" prefWidth="7.0" />
+                  <Button fx:id="btnSubmit" layoutX="571.0" layoutY="437.0" mnemonicParsing="false" text="Submit" />
+                  <Label fx:id="lblSkate" layoutX="137.0" layoutY="14.0" prefHeight="23.0" prefWidth="98.0" text="Skate Area">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Log">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="skateTable" prefHeight="567.0" prefWidth="850.0">
+                    <columns>
+                      <TableColumn fx:id="dateCol" prefWidth="135.0" text="Date" />
+                      <TableColumn fx:id="timeCol" prefWidth="120.0" text="Time" />
+                        <TableColumn fx:id="locationCol" prefWidth="159.0" text="Location" />
+                        <TableColumn fx:id="sessionCol" prefWidth="171.0" text="Type of Session" />
+                        <TableColumn fx:id="trickCol" prefWidth="140.0" text="Trick Performed" />
+                        <TableColumn fx:id="trickCol1" prefWidth="105.0" text="Success Rate" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Trick Progress">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="585.0" prefWidth="850.0">
+               <children>
+                  <LineChart alternativeColumnFillVisible="true" axisSortingPolicy="NONE" layoutY="8.0" mouseTransparent="true" prefHeight="490.0" prefWidth="839.0" title="Trick Progression">
+                    <xAxis>
+                      <CategoryAxis endMargin="10.0" label="Date" prefWidth="559.0" startMargin="0.0" tickLabelRotation="3.0" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis label="Success Rate" side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
